@@ -577,17 +577,6 @@ npm run lint
 
 ---
 
-## 🤝 Contribución
-
-Este es un proyecto privado. Para contribuir:
-
-1. Crea una rama desde `main`
-2. Realiza tus cambios
-3. Asegúrate de que el código compile sin errores
-4. Crea un Pull Request describiendo los cambios
-
----
-
 ## 📄 Licencia
 
 Este proyecto es propietario y confidencial. Todos los derechos reservados.
