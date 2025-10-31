@@ -1,4 +1,4 @@
-# SPEAS - Sistema ERP Integral
+# Sistema ERP Integral
 
 <div align="center">
 
@@ -591,14 +591,6 @@ Este es un proyecto privado. Para contribuir:
 ## 📄 Licencia
 
 Este proyecto es propietario y confidencial. Todos los derechos reservados.
-
----
-
-## 📞 Soporte
-
-Para reportar problemas o solicitar características:
-- Crea un issue en el repositorio
-- Contacta al equipo de desarrollo
 
 ---
 
