@@ -411,9 +411,7 @@ ERP/
 │   ├── tsconfig.json
 │   └── vite.config.ts
 │
-├── CLAUDE.md                        # Guía para Claude Code
-├── README.md                        # Este archivo
-└── bd.sql                          # Script SQL de la base de datos
+└── README.md                        # Este archivo
 ```
 
 ---
