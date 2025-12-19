@@ -495,13 +495,13 @@ const ListaUsuariosPage = () => {
 
                         {/* Roles del Usuario (multi-select / checkboxes) */}
                         <h4 className="form-section-title full-width">Roles Asignados</h4>
-                        <div className="form-group full-width roles-checkbox-group">
+                        <div className="roles-container full-width">
                             {rolesDisponibles.length > 0 ? (
                                 rolesDisponibles.map(role => (
-                                    <div key={role.rol_id} className="checkbox-item">
-                                        <input 
-                                            type="checkbox" 
-                                            id={`role-${role.rol_id}`} 
+                                    <div key={role.rol_id} className="form-group checkbox-group m-0 p-0">
+                                        <input
+                                            type="checkbox"
+                                            id={`role-${role.rol_id}`}
                                             name="rol_ids"
                                             value={role.rol_id}
                                             checked={formData.rol_ids?.includes(role.rol_id!) || false}

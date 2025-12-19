@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth'; // Importamos useAuth
 import { loginService } from '../services/authService';
 import { showSuccessToast, showErrorAlert } from '../services/notificationService'; 
-import logoImagen from '../assets/gruposp.jpeg'; 
+import logoImagen from '../assets/logo.png'; 
 import '../styles/LoginPage.css';
 
 const LoginPage = () => {
@@ -50,7 +50,7 @@ const LoginPage = () => {
             <div className="login-card">
                 <img src={logoImagen} alt="Logo ERP" className="login-logo" />
                 <h2>Iniciar Sesión</h2>
-                <p>Bienvenido a SPEAS</p>
+                <p>Bienvenido a [Nombre ERP]</p>
                 <form onSubmit={handleSubmit}>
                     <div className="input-group">
                         <label htmlFor="username">Nombre de Usuario</label>

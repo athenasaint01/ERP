@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
 import { showConfirmDialog } from '../../services/notificationService';
-import logoImagen from '../../assets/gruposp.jpeg';
+import logoImagen from '../../assets/logo.png';
 import './MainLayout.css';
 
 // --- Iconos SVG (sin cambios) ---
@@ -149,7 +149,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
             <aside className="sidebar">
                 <div className="sidebar-header">
                     <img src={logoImagen} alt="Logo" className="sidebar-logo" />
-                    <h3>SPEAS</h3>
+                    <h3>ERP</h3>
                 </div>
                 <nav className="sidebar-nav">
                     <MenuItem to="/dashboard" end><IconDashboard /><span>Dashboard</span></MenuItem>
